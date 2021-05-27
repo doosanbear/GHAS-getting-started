@@ -36,13 +36,13 @@
 </p>
 </details>
 
-## 개발 환경
+## 개발 환경 ❔
 <details><summary>🔍</summary>
 <p>
    
-* 사용되는 languages/frameworks 
+* 사용되는 languages/frameworks 🗣️ 
   * see [Supported Languages and Frameworks](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
-  * 우선순위 
+  * 우선순위 🥇❔ 
    
 </p>
 </details>
