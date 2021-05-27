@@ -1,13 +1,6 @@
 # getting-started GHAS   
 - GHAS는 GitHub의 보안 기능인 Advanced Security 기능입니다. 
-- 기능은 크게 아래와 같이 구성됩니다. 
-   - 의존성 보안 : 의존성 보안 확인/의존성 보안 알람/의존성 보안 자동패치(Dependabot)
-   - **Code Scanning** : Code의 정적보안 분석
-   - **Secret Scanning** : Credential 자동 검출 
-   - Security Insight
-   - Policy설정
-   - [GitHub Advisory 데이터베이스](https://github.com/advisories)
-- 이 중, 라이센스는 Code Scanning 과 Secret Scanning 두 가지에만 해당됩니다.
+
 
 ## 왜 😶❓ 
 <details><summary> 🔍 </summary>
