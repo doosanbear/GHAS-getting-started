@@ -47,7 +47,8 @@
 </p>
 </details>
 
-## Next
+## [Next](whyGitHub.md)
+
 
 ## 자료
 - [CodeQL Document](https://codeql.github.com/docs/)
