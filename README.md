@@ -1,4 +1,4 @@
-# getting-started GHAS  :octocat:  
+# getting-started GHAS   
 - GHAS는 GitHub의 보안 기능인 Advanced Security 기능입니다. 
 - 기능은 크게 아래와 같이 구성됩니다. 
    - 의존성 보안 : 의존성 보안 확인/의존성 보안 알람/의존성 보안 자동패치(Dependabot)
@@ -13,7 +13,7 @@
 <details><summary> 🔍 </summary>
 <p>
 
-- 오픈소스 프로젝트는 이미 대세
+- 오픈소스 프로젝트는 이미 대세 <br>
 - 상용 코드들의 90%가 오픈소스에 의존 
 - 오픈소스의 Contributor 누군가가 Enterprise 상용코드에 보안 위협을 심을 수 있습니다 : **소프트웨어 공급망 공격**
 
