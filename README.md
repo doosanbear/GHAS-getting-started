@@ -44,15 +44,16 @@
 ## 개발 환경
 <details><summary>🔍</summary>
 <p>
+   
 * 사용되는 languages/frameworks 
-   (see [Supported Languages and Frameworks](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/))
-  * 우선순위 ?
-  * 이중에서 우서?
-  * `Swift` is not supported today, would you say that is a dealbreaker? 
-* Are there audit requirements?  If so, how often?
+  * see [Supported Languages and Frameworks](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
+  * 우선순위 
+   
 </p>
 </details>
 
-### 자료
+## Next
+
+## 자료
 - [CodeQL Document](https://codeql.github.com/docs/)
 - [CodeQL Repo](https://github.com/github/codeql)
