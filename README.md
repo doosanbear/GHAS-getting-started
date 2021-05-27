@@ -17,9 +17,6 @@
 - 상용 코드들의 90%가 오픈소스에 의존 
 - 오픈소스의 Contributor 누군가가 Enterprise 상용코드에 보안 위협을 심을 수 있습니다 : **소프트웨어 공급망 공격**
 
-  <img src="image-url" name="image-name">
-  <img src="image-url" name="image-name">
-  <img src="image-url" name="image-name">
 </p>
 </details>
 
