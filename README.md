@@ -9,7 +9,7 @@
    - [GitHub Advisory 데이터베이스](https://github.com/advisories)
 - 이 중, 라이센스는 Code Scanning 과 Secret Scanning 두 가지에만 해당됩니다.
 
-# 왜 😶❓ 
+## 왜 😶❓ 
 <details><summary> 🔍 </summary>
 <p>
 
@@ -19,9 +19,7 @@
 </p>
 </details>
 
-
-
-# 우리의 현재는 🧐
+## 우리의 현재는 🧐
 <details><summary>🔍</summary>
 <p>
 
@@ -38,17 +36,23 @@
   * 얼마나 오래 사용되어왔는지/어느 팀이 own
   * 좋은점과, 개선이 필요한 부분
   * 도구를 개발/관리/유지하기 위해 필요한 노력은? 
-  * [No Tooling in place] What began the search for an appsec tool? 
-  * [No Tooling in place] Is there something specific they're looking for in their ideal solution? 
-* What languages/frameworks are in use today? (see [Supported Languages and Frameworks](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/))
-  * Of those you listed, which ones would you say are highest priority?
-  * `Swift` is not supported today, would you say that is a dealbreaker? 
-* Are there audit requirements?  If so, how often?
-
+  * 만약 현재 도구가 없다면, 무엇이, 어떤 목적을 위해 🎛️ ? 
 
 </p>
 </details>
 
-# 자료
+## 개발 환경
+<details><summary>🔍</summary>
+<p>
+* 사용되는 languages/frameworks 
+   (see [Supported Languages and Frameworks](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/))
+  * 우선순위 ?
+  * 이중에서 우서?
+  * `Swift` is not supported today, would you say that is a dealbreaker? 
+* Are there audit requirements?  If so, how often?
+</p>
+</details>
+
+### 자료
 - [CodeQL Document](https://codeql.github.com/docs/)
 - [CodeQL Repo](https://github.com/github/codeql)
