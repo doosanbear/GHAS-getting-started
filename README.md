@@ -16,6 +16,8 @@
 - 오픈소스 프로젝트는 이미 대세 <br>
 - 상용 코드들의 90%가 오픈소스에 의존 
 - 오픈소스의 Contributor 누군가가 Enterprise 상용코드에 보안 위협을 심을 수 있습니다 : **소프트웨어 공급망 공격**
+- 보안은 **[공동책임](https://github.com/doosanbear/getting-started/blob/7362c753f90b45e8ceae3472c8824852a6a6a976/WhySecurity.md)** 입니다.
+   
 </p>
 </details>
 
