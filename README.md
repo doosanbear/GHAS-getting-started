@@ -2,7 +2,7 @@
 - GHAS는 GitHub의 보안 기능인 Advanced Security 기능입니다. 
 
 
-## 왜 😶❓ 
+## 왜 보안이 중요 😶❓ 
 <details><summary> 🔍 </summary>
 <p>
 
@@ -14,38 +14,28 @@
 </p>
 </details>
 
-## 우리의 현재는 🧐
+## 현재는 어떤 모습이신지요 🧐
 <details><summary>🔍</summary>
 <p>
 
-* 현재 보안 상태는 🤔 
-  * 현재 사용되는 도구> 좋은점.. 필요한점..  
-  * 아쉬운 부분들?
-* 개발자와 보안팀이 어떻게 일하나요? 🖥️
-  * 어떻게 협력하죠? 
-  * 문제점 발견에서 복구까지의 시간은 ? (MTTR)
+* 현재 사용하시는 소스코드관리/협업 플랫폼은? 👀
+   
+* Devs와 Security팀이 어떻게 일하시나요? 🖥️
+  * working relationship 🧑‍🤝‍🧑 : single team 처럼 함께 협력하시는지, 아니면 의사소통만 왕래하신는지요?
+  * 문제점 발견에서 복구까지의 시간은? (MTTR)
   * 보안취약성을 해결하는데 얼마나 효율적으로 일하나요? ⏳
-  * Dev에서 느끼는 어려운 점들은?  
+  * Devs에서 느끼는 어려운 점들은? 
   * 30일 이상 오픈되어 있는 취약성은 얼마나..?(%) 📆
-* 현재의 SAST / DAST/Secret Scanning 도구들은?
-  * 얼마나 오래 사용되어왔는지/어느 팀이 own
-  * 좋은점과, 개선이 필요한 부분
-  * 도구를 개발/관리/유지하기 위해 필요한 노력은? 
-  * 만약 현재 도구가 없다면, 무엇이, 어떤 목적을 위해 🎛️ ? 
+* 현재의 SAST / DAST/Secret Scanning 도구들은?🤔 
+  * 얼마나 오래 사용되어왔는지/어느 팀이 ownership
+  * Devs와의 워크플로우 결합은 developer integrations 또는 커밋 단계의 early integrations이 있는지요?
+  * 좋은점과, 개선이 필요한 부분들이 있다면 어떤 것들이 있을까요? 👀
+  * 도구를 개발/관리/유지하기 위한 현재의 노력은? 
+  * 만약 현재 도구가 없다면, 무엇이, 어떤 목적 🎛️ , Initiative?
 
 </p>
 </details>
 
-## 개발 환경 ❔
-<details><summary>🔍</summary>
-<p>
-   
-* 사용되는 languages/frameworks 🗣️ 
-  * see [Supported Languages and Frameworks](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
-  * 우선순위 🥇❔ 
-   
-</p>
-</details>
 
 ## [Why GitHub](whyGitHub.md)
 
@@ -69,6 +59,17 @@
 ## How 4. 전체적인 보안 상태를 확인할 수 있습니다. 
 
 ## How 5. Policy를 설정 합니다. 
+
+## 개발 환경 ❔
+<details><summary>🔍</summary>
+<p>
+   
+* 사용되는 languages/frameworks 🗣️ 
+  * see [Supported Languages and Frameworks](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
+  * 우선순위 🥇❔ 
+   
+</p>
+</details>
 
 ## 자료
 - [CodeQL Document](https://codeql.github.com/docs/)
