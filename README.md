@@ -8,6 +8,8 @@
 
 - 오픈소스 프로젝트는 이미 대세 <br>
 - 상용 코드들의 90%가 오픈소스에 의존 
+   ![GitHub Advanced Security_Kor (6)](https://user-images.githubusercontent.com/40287191/120053479-50842700-c065-11eb-9772-7728add02e3d.png)
+
 - 오픈소스의 Contributor 누군가가 Enterprise 상용코드에 보안 위협을 심을 수 있습니다 : **소프트웨어 공급망 공격**
 - 보안은 **[공동책임](WhySecurity.md)** 입니다.
    
