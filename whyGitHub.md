@@ -5,4 +5,4 @@
 
 ![GitHub Advanced Security_Kor (5)](https://user-images.githubusercontent.com/40287191/119859559-78359b00-bf50-11eb-81d5-cb39d23c8dc9.png)
 
-[🔙](README.md)
+[🔙](https://github.com/doosanbear/getting-started/blob/main/whyGitHub.md)
