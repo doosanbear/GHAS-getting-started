@@ -89,7 +89,12 @@
 ## How 4. 전체적인 보안 상태를 확인할 수 있습니다. 
 
 ## How 5. Policy를 설정 합니다. 
+<details><summary>🔍</summary>
+<p> 
+   * [Policy.md 파일 설정](https://github.com/doosanbear/Demo-webgoatm/security/policy)
 
+</p>
+</details>
 ## 개발 환경 ❔
 <details><summary>🔍</summary>
 <p>
