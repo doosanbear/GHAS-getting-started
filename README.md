@@ -89,6 +89,7 @@
 ## How 3. Code 작성시 실수로 Push되는 Credential을 자동으로 검출합니다. 
 <details><summary>🔍</summary>
 <p>
+   
    * Security Center
    
 </p>
@@ -97,6 +98,7 @@
 ## How 4. 전체적인 보안 상태를 확인할 수 있습니다. 
 <details><summary>🔍</summary>
 <p>
+   
    * Security Center
    
 </p>
@@ -105,6 +107,7 @@
 ## How 5. Policy를 설정 합니다. 
 <details><summary>🔍</summary>
 <p> 
+   
    * [Org에 대해 Advanced Security 강제화](https://docs.github.com/en/enterprise-server@3.1/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise#enforcing-a-policy-for-advanced-security-features)
    * [Policy.md 파일 설정](https://github.com/doosanbear/Demo-webgoatm/security/policy)
    
