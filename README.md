@@ -73,6 +73,10 @@
    
    * [CodeQL은 Microsoft, Google, Uber등에서 분석을 위해 사용됩니다.](slide/codeql_customer.md) 
    
+   * [분석예제 with Javascript](https://github.com/doosanbear/code-scanning-javascript-demo)
+   
+   * 
+   
 </p>
 </details>
 
@@ -95,4 +99,5 @@
 
 ## 자료
 - [CodeQL Document](https://codeql.github.com/docs/)
+- [CodeQL query help](https://codeql.github.com/codeql-query-help/)
 - [CodeQL Repo](https://github.com/github/codeql)
