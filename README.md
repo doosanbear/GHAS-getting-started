@@ -11,6 +11,8 @@
    ![GitHub Advanced Security_Kor (6)](https://user-images.githubusercontent.com/40287191/120053479-50842700-c065-11eb-9772-7728add02e3d.png)
 
 - 오픈소스의 Contributor 누군가가 Enterprise 상용코드에 보안 위협을 심을 수 있습니다 : **소프트웨어 공급망 공격**
+   ![Advanced Security Deck](https://user-images.githubusercontent.com/40287191/120103297-e9ac5e00-c189-11eb-96a6-e6b723b58dfe.png)
+
 - 보안은 **[공동책임](WhySecurity.md)** 입니다.
    
 </p>
@@ -23,7 +25,7 @@
 * 현재 사용하시는 소스코드관리/협업 플랫폼은? 👀
    
 * Devs와 Security팀이 어떻게 일하시나요? 🖥️
-  * working relationship 🧑‍🤝‍🧑 : single team 처럼 함께 협력하시는지, 아니면 의사소통만 왕래하신는지요?
+  * working relationship 🧑‍🤝‍🧑 : single team 처럼 함께 협력하시는지, 아니면 의사소통만 오가는 정도인지요?
   * 문제점 발견에서 복구까지의 시간은? (MTTR)
   * 보안취약성을 해결하는데 얼마나 효율적으로 일하나요? ⏳
   * Devs에서 느끼는 어려운 점들은? 
@@ -45,16 +47,31 @@
 <details><summary>🔍</summary>
 <p>
 
-* 프로젝트가 의존하고 있는 의존성은 어떤것이 있지? 🤔 : Dependency Graph  
+* 프로젝트가 의존하고 있는 의존성은 어떤것이 있지? 🤔 : [Dependency Graph](https://github.com/doosanbear/Demo-webgoatm/network/dependencies)  
   
-* 의존성에 알람이 뜨면 알람을 발생시킵니다. 🔊
+* 의존성에 알람이 뜨면 알람을 발생시킵니다. 🔊 : [Dependabot alert](https://github.com/doosanbear/Demo-webgoatm)
   
-* 발생된 의존성 알람에 대해 자동 패치를 수행합니다. : Dependabot 
+* 발생된 의존성 알람에 대해 자동 패치를 수행합니다. : [Dependabot security update](https://github.com/doosanbear/Demo-webgoatm/pulls)
 
+* 보안 데이터베이스 
+   * GitHub의 전체 보안 데이터 베이스 : [GitHub Advisory Database](https://github.com/advisories)
+   * GitHub은 CVE를 직접 발행할 수 있는 인증기관 (CNA: CVE Numbering Authority)
+   * [NVD(National Vulnerability Database), Community Sources](https://github.blog/2019-09-18-securing-software-together/)
+   
 </p>
 </details>
 
 ## How 2. Code를 작성할 때 들어갈 수 있는 위협요소를 분석합니다.
+<details><summary>🔍</summary>
+<p>
+
+   * GitHub + Semmle
+   ![GitHub Advanced Security - issc29](https://user-images.githubusercontent.com/40287191/120106398-bf619d00-c197-11eb-8324-01691841a262.png)
+   ![GitHub Advanced Security_Kor (7)](https://user-images.githubusercontent.com/40287191/120106411-cd172280-c197-11eb-8db5-efe4830fb0cc.png)
+
+   * CodeQL : 정적 분석을 위한 내부 쿼리 엔진
+</p>
+</details>
 
 ## How 3. Code 작성시 실수로 Push되는 Credential을 자동으로 검출합니다. 
 
