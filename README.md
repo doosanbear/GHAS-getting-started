@@ -71,7 +71,7 @@
 
    * [CodeQL : 정적 분석을 위한 내부 쿼리 엔진](slide/codeql.md)
    
-   * CodeQL은 Microsoft, Google, Uber등에서 분석을 위해 사용됩니다. 
+   * [CodeQL은 Microsoft, Google, Uber등에서 분석을 위해 사용됩니다.](slide/codeql_customer.md) 
    
 </p>
 </details>
