@@ -57,6 +57,8 @@
    * GitHub의 전체 보안 데이터 베이스 : [GitHub Advisory Database](https://github.com/advisories)
    * GitHub은 CVE를 직접 발행할 수 있는 인증기관 (CNA: CVE Numbering Authority)
    * [NVD(National Vulnerability Database), Community Sources](https://github.blog/2019-09-18-securing-software-together/)
+
+* Dependency Insight (GHEC)
    
 </p>
 </details>
@@ -85,13 +87,27 @@
 </details>
 
 ## How 3. Code 작성시 실수로 Push되는 Credential을 자동으로 검출합니다. 
+<details><summary>🔍</summary>
+<p>
+   * Security Center
+   
+</p>
+</details>
 
 ## How 4. 전체적인 보안 상태를 확인할 수 있습니다. 
+<details><summary>🔍</summary>
+<p>
+   * Security Center
+   
+</p>
+</details>
 
 ## How 5. Policy를 설정 합니다. 
 <details><summary>🔍</summary>
 <p> 
+   * [Org에 대해 Advanced Security 강제화](https://docs.github.com/en/enterprise-server@3.1/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise#enforcing-a-policy-for-advanced-security-features)
    * [Policy.md 파일 설정](https://github.com/doosanbear/Demo-webgoatm/security/policy)
+   
 
 </p>
 </details>
