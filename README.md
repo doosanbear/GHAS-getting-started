@@ -75,7 +75,11 @@
    
    * [분석예제 with Javascript](https://github.com/doosanbear/code-scanning-javascript-demo)
    
-   * 
+   * Extensive CodeQL query
+   
+   * CodeQL Visual Studio
+   
+   * CodeQL CLI
    
 </p>
 </details>
