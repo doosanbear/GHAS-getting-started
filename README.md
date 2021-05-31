@@ -85,7 +85,7 @@
    
    * Extensive CodeQL query
    
-   * Upload SARIF
+   * [3rd party Integration](https://github.com/github/advanced-security-field/blob/main/technical-knowledge/code-scanning-integrations.md), Upload SARIF
    
    * CodeQL Visual Studio
    
@@ -99,9 +99,12 @@
 <p>
    
    * [Secret Scanning](https://github.com/octodemo/demo-vulnerabilities-ghas/security/secret-scanning)
-   * GitHub.com상에 Public 저장소들은 이전부터 default로 자동 ON되어 있어왔습니다. 
-   * GitHub Enterprise에 Private 저장소들까지 모두 지원합니다. (GHES포함)
-   * User Defiend 
+   * [현재 37개 패턴 coverage](https://docs.github.com/en/enterprise-server@3.1/code-security/secret-security/about-secret-scanning#about-secret-scanning-for-private-repositories)
+   * GitHub.com상에 Public 저장소들은 이전부터 default로 자동 ON되어 있어왔습니다. GitHub.com상의 Private 저장소는 Organization 소속의 저장소만 지원
+   * GHES는 Organization 소속의 저장소만 지원
+   * User Defiend 패턴까지 지원 예정
+   * Secret Scanning alert를 볼 수 있는 권한은 [Org의 Owner/저장소의 Admin이 추가/삭제 가능](https://docs.github.com/en/enterprise-server@3.1/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#granting-access-to-security-alerts)
+   
    
 </p>
 </details>
