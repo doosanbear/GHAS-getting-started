@@ -135,6 +135,40 @@
 </p>
 </details>
 
+## License 🧮
+<details><summary>🔍</summary>
+<p>
+   
+* GitHub Enterprise외 추가 비용없음
+   - Dependency Graph
+   - Dependabot Alert
+   - Dependabot Security Update
+   - Security Center
+* 별도 라이센스
+   - Code Scanning
+   - Secret Scanning
+* Code Scanning 라이센스 모델
+   - **Commiter** 기반 : 지난 90일간 저장소에 Commit한 사람 수
+   - 한명의 User는 여러곳에 commit해도 '하나'로 카운트
+   
+</p>
+</details>
+
+## Trial 🚀
+<details><summary>🔍</summary>
+<p>
+   
+* How?
+   - GitHub Sales에 Trial request ☎️
+   - 
+   - 이미 GHEC
+   - GHES
+   
+* 기간: 3Weeks
+ * 매주 
+   
+</p>
+</details>
 
 ## 개발 환경 ❔
 <details><summary>🔍</summary>
