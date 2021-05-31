@@ -77,6 +77,10 @@
    
    * [분석예제 with Javascript](https://github.com/doosanbear/code-scanning-javascript-demo)
    
+   * [Codeql](https://github.com/github/codeql), [Codeql-action](https://github.com/github/codeql-action)
+   
+   * [Codeql-action-sync-tool](https://github.com/github/codeql-action-sync-tool/) for no Internet Connection
+   
    * Extensive CodeQL query
    
    * CodeQL Visual Studio
@@ -130,4 +134,4 @@
 ## 자료
 - [CodeQL Document](https://codeql.github.com/docs/)
 - [CodeQL query help](https://codeql.github.com/codeql-query-help/)
-- [CodeQL Repo](https://github.com/github/codeql)
+
