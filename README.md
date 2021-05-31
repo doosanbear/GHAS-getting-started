@@ -13,7 +13,7 @@
 - 오픈소스의 Contributor 누군가가 Enterprise 상용코드에 보안 위협을 심을 수 있습니다 : **소프트웨어 공급망 공격**
    ![Advanced Security Deck](https://user-images.githubusercontent.com/40287191/120103297-e9ac5e00-c189-11eb-96a6-e6b723b58dfe.png)
 
-- 보안은 **[공동책임](WhySecurity.md)** 입니다.
+- 보안은 ** [모두의 공동책임](WhySecurity.md)** 입니다.
    
 </p>
 </details>
@@ -62,7 +62,7 @@
 </p>
 </details>
 
-## How 2. Code를 작성할 때 들어갈 수 있는 위협요소를 분석합니다.
+## How 2. Code를 작성할 때 들어갈 수 있는 위협요소를 분석합니다. :
 <details><summary>🔍</summary>
 <p>
 
@@ -145,4 +145,5 @@
 ## 자료
 - [CodeQL Document](https://codeql.github.com/docs/)
 - [CodeQL query help](https://codeql.github.com/codeql-query-help/)
+- [push a GitHub Actions workflow to multiple repositories](https://github.com/jhutchings1/Create-ActionsPRs)
 
