@@ -78,6 +78,8 @@
    
    * [분석예제 with Javascript](https://github.com/doosanbear/code-scanning-javascript-demo)
    
+   * [Pull Request에서의 Code Scanning Alert](https://github.com/octodemo/demo-vulnerabilities-ghas/pull/21)
+   
    * [더 많은 예제입니다.](https://github.com/doosanbear/Demo-webgoatm/security)
    
    * [Codeql 저장소](https://github.com/github/codeql), [Codeql-action 저장소](https://github.com/github/codeql-action)
