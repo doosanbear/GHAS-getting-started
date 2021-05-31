@@ -77,11 +77,15 @@
    
    * [분석예제 with Javascript](https://github.com/doosanbear/code-scanning-javascript-demo)
    
-   * [Codeql](https://github.com/github/codeql), [Codeql-action](https://github.com/github/codeql-action)
+   * [더 많은 예제입니다.](https://github.com/doosanbear/Demo-webgoatm/security)
    
-   * [Codeql-action-sync-tool](https://github.com/github/codeql-action-sync-tool/) for no Internet Connection
+   * [Codeql 저장소](https://github.com/github/codeql), [Codeql-action 저장소](https://github.com/github/codeql-action)
+   
+   * [순수 온프렘에서도 사용가능합니다: Codeql-action-sync-tool](https://github.com/github/codeql-action-sync-tool/) for no Internet Connection
    
    * Extensive CodeQL query
+   
+   * Upload SARIF
    
    * CodeQL Visual Studio
    
@@ -94,7 +98,10 @@
 <details><summary>🔍</summary>
 <p>
    
-   * Security Center
+   * [Secret Scanning](https://github.com/octodemo/demo-vulnerabilities-ghas/security/secret-scanning)
+   * GitHub.com상에 Public 저장소들은 이전부터 default로 자동 ON되어 있어왔습니다. 
+   * GitHub Enterprise에 Private 저장소들까지 모두 지원합니다. (GHES포함)
+   * User Defiend 
    
 </p>
 </details>
