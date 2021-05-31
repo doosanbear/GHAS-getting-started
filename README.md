@@ -82,7 +82,7 @@
    
    * [더 많은 예제입니다.](https://github.com/doosanbear/Demo-webgoatm/security)
    
-   * [Codeql 저장소](https://github.com/github/codeql), [Codeql-action 저장소](https://github.com/github/codeql-action)
+   * [Codeql 저장소](https://github.com/github/codeql), [Codeql-action 저장소](https://github.com/github/codeql-action)에 지속적으로 Query들이 업데이트 됩니다.
       - [GitHub Connect 설정](https://docs.github.com/en/enterprise-server@3.1/admin/github-actions/managing-access-to-actions-from-githubcom/enabling-automatic-access-to-githubcom-actions-using-github-connect)을 이용해 자동으로 업데이트된 CodeQL 쿼리들 사용가능
    
    * [순수 온프렘에서도 사용가능합니다: Codeql-action-sync-tool](https://github.com/github/codeql-action-sync-tool/)을 이용해 인터넷 연결이 없는 상황에서도 수동으로 sync가능 
