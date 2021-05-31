@@ -58,7 +58,6 @@
    * GitHub은 CVE를 직접 발행할 수 있는 인증기관 (CNA: CVE Numbering Authority)
    * [NVD(National Vulnerability Database), Community Sources](https://github.blog/2019-09-18-securing-software-together/)
 
-* Dependency Insight (GHEC)
    
 </p>
 </details>
@@ -99,7 +98,7 @@
 <details><summary>🔍</summary>
 <p>
    
-   * Security Center
+   * [Security Center](https://github.com/orgs/johnjohncom/security) - currently beta on GHEC
    
 </p>
 </details>
