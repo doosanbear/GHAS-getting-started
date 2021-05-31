@@ -80,12 +80,13 @@
    * [더 많은 예제입니다.](https://github.com/doosanbear/Demo-webgoatm/security)
    
    * [Codeql 저장소](https://github.com/github/codeql), [Codeql-action 저장소](https://github.com/github/codeql-action)
+      - [GitHub Connect 설정](https://docs.github.com/en/enterprise-server@3.1/admin/github-actions/managing-access-to-actions-from-githubcom/enabling-automatic-access-to-githubcom-actions-using-github-connect)을 이용해 자동으로 업데이트된 CodeQL 쿼리들 사용가능
    
-   * [순수 온프렘에서도 사용가능합니다: Codeql-action-sync-tool](https://github.com/github/codeql-action-sync-tool/) for no Internet Connection
+   * [순수 온프렘에서도 사용가능합니다: Codeql-action-sync-tool](https://github.com/github/codeql-action-sync-tool/)을 이용해 인터넷 연결이 없는 상황에서도 수동으로 sync가능 
    
    * Extensive CodeQL query
    
-   * [3rd party Integration](https://github.com/github/advanced-security-field/blob/main/technical-knowledge/code-scanning-integrations.md), Upload SARIF
+   * [3rd 도구와 유연하게 연동하여](https://github.com/github/advanced-security-field/blob/main/technical-knowledge/code-scanning-integrations.md), [Upload SARIF](https://docs.github.com/en/code-security/secure-coding/integrating-with-code-scanning/uploading-a-sarif-file-to-github)를 통해 결과를 함께 확인할 수 있습니다.
    
    * CodeQL Visual Studio
    
