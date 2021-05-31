@@ -87,6 +87,8 @@
    
    * [순수 온프렘에서도 사용가능합니다: Codeql-action-sync-tool](https://github.com/github/codeql-action-sync-tool/)을 이용해 인터넷 연결이 없는 상황에서도 수동으로 sync가능 
    
+   * 저장소의 읽기 권한이 있으면, Pull Request상에 Code Scanning 결과 볼 수 있고, 저장소에 '쓰기' 권한이 있으면 'Security' 탭에서 전체 결과 확인 가능 : [설명](https://docs.github.com/en/enterprise-server@3.1/code-security/secure-coding/automatically-scanning-your-code-for-vulnerabilities-and-errors/managing-code-scanning-alerts-for-your-repository#viewing-the-alerts-for-a-repository)
+   
    * Extensive CodeQL query
    
    * [3rd 도구와 유연하게 연동하여](https://github.com/github/advanced-security-field/blob/main/technical-knowledge/code-scanning-integrations.md), [Upload SARIF](https://docs.github.com/en/code-security/secure-coding/integrating-with-code-scanning/uploading-a-sarif-file-to-github)를 통해 결과를 함께 확인할 수 있습니다.
