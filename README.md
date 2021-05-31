@@ -68,7 +68,8 @@
 
    * GitHub + Semmle
    ![GitHub Advanced Security - issc29](https://user-images.githubusercontent.com/40287191/120106398-bf619d00-c197-11eb-8324-01691841a262.png)
-   ![GitHub Advanced Security_Kor (7)](https://user-images.githubusercontent.com/40287191/120106411-cd172280-c197-11eb-8db5-efe4830fb0cc.png)
+   ![GitHub Advanced Security - issc29 (1)](https://user-images.githubusercontent.com/40287191/120127834-6f1c2680-c1fb-11eb-8ee1-3ae7452d2045.png)
+
 
    * [CodeQL : 정적 분석을 위한 내부 쿼리 엔진](slide/codeql.md)
    
