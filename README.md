@@ -157,7 +157,7 @@
       - [Enterprise레벨에서 Org별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise)
       - [Org자체에서 모든 저장소 한꺼번에 enable/disable](https://docs.github.com/en/enterprise-server@3.1/organizations/keeping-your-organization-secure/managing-security-and-analysis-settings-for-your-organization#enabling-or-disabling-a-feature-for-all-existing-repositories)
       - [저장소별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#enabling-or-disabling-security-and-analysis-features)
-      - 어떤 저장소를 GHAS를 
+      - 어떤 저장소에서 GHAS를 disable하면,해당 저장소에만 commit을 했던 committer의 수는 라이센스에서 즉시 빠짐 
     - Committer가 초과 시: 기존에 enable된 저장소들은 계속 추가적인 committer 허용// 신규 저장소들은 GHAS가 disable된 상태로 생성됨, GHAS가 enable되지 않았던 기존 저장소들도 GHAS의 enable버튼이 비활성화
   
    
