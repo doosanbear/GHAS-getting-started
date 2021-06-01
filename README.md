@@ -150,8 +150,8 @@
 * GHAS license 라이센스 모델
    - **Commiter** 기반 : 지난 90일간 저장소에 Commit한 사람 수
    - Code Scanning은 GHAS license와 동등, Secret Scanning은 하위 기능
-     - Code Scanning은 GHAS license로 함께 enable/disable
-     - Secret ScanningOrg레벨/Repo레벨에서 Code Scanning과 별도로 enable/disable가능, Code Scanning을 disable하면 
+     - GHAS on/off : Code Scanning/Secret Scanning 모두 on/off
+     - GHAS on상태에서, Secret Scanning은 Org레벨/Repo레벨에서 Code Scanning과 별도로 on/off가능하지만, GHAS를 off하면 함께 off
    - 한명의 User는 여러곳에 commit해도 '하나'로 카운트
    - 관리/비용절약 💰 
       - [Enterprise레벨에서 Org별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise)
