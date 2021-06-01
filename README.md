@@ -120,6 +120,7 @@
 <p>
    
    * [Security Center](https://github.com/orgs/johnjohncom/security) - currently beta on GHEC
+     - [Team level Security center](https://github.com/orgs/johnjohncom/teams/team1/security)
    
 </p>
 </details>
