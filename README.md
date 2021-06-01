@@ -139,7 +139,7 @@
 <details><summary>🔍</summary>
 <p>
    
-* GitHub Enterprise외 추가 비용없음
+* GitHub Enterprise외 추가 비용없음 
    - Dependency Graph
    - Dependabot Alert
    - Dependabot Security Update
@@ -150,22 +150,39 @@
 * Code Scanning 라이센스 모델
    - **Commiter** 기반 : 지난 90일간 저장소에 Commit한 사람 수
    - 한명의 User는 여러곳에 commit해도 '하나'로 카운트
+   - 관리: [Enterprise레벨에서 Org별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise), [Org자체에서 enable/disable](https://docs.github.com/en/enterprise-server@3.1/organizations/keeping-your-organization-secure/managing-security-and-analysis-settings-for-your-organization#enabling-or-disabling-a-feature-for-all-existing-repositories), [저장소별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#enabling-or-disabling-security-and-analysis-features)
+    - Committer가 초과 시: 기존에 enable된 저장소들은 계속 추가적인 committer 허용// 신규 저장소들은 GHAS가 disable된 상태로 생성됨, GHAS가 enable되지 않았던 기존 저장소들도 GHAS의 enable버튼이 비활성화
+  
    
 </p>
 </details>
 
-## Trial 🚀
+## Trial을 원하시면 🚀
 <details><summary>🔍</summary>
 <p>
+
+* GitHub.com상에 모든 Public 저장소들은 이미 사용 가능 ✨
+
+* Private 저장소들에 대해 Trial을 하고 싶으시면 👇
+   - GitHub Sales에 Trial request ☎️ ▶️ Trial Enable
+   - 간단한 meeting : Trial 범위/대상 저장소/언어/빌드환경등,, Trial의 목적, success criteria등
    
-* How?
-   - GitHub Sales에 Trial request ☎️
-   - 
-   - 이미 GHEC
-   - GHES
+* GitHub Enterprise Cloud에서 Trial 
+   - 이미 사용중 
+     - Trial하실 Enterprise Account name 이름을 보내주시면, :octocat:이 enable
+     - 50 committer (만약 추가 필요하시면 Contact GitHub)
+   - 사용중이 아니시면
+     - 신규 Org생성, Org이름 보내주시면, :octocat:이 GitHub Enterprise Cloud Trial + GHAS Trial enable
+     - 50 seat/committer (만약 추가 필요하시면 GitHub에 contact)
+   
+* GitHub Enterprise Server에서 Trial
+   - 이미 사용중
+     - Trial Enable된 라이센스를 기존 Enterprise Account의 라이센스 다운받는 곳에서 다운로드하여 적용
+   - 사용중이 아니시면,
+     - Trial 라이센스를 신청하신 admin분의 이메일로 전송 -> GHES설치하고 trial 라이센스 적용 
    
 * 기간: 3Weeks
- * 매주 
+ * 사용방법/매주 1~2회 call
    
 </p>
 </details>
