@@ -144,13 +144,20 @@
    - Dependabot Alert
    - Dependabot Security Update
    - Security Center
-* 별도 라이센스
+* 별도 라이센스 : GHAS license
    - Code Scanning
    - Secret Scanning
-* Code Scanning 라이센스 모델
+* GHAS license 라이센스 모델
    - **Commiter** 기반 : 지난 90일간 저장소에 Commit한 사람 수
+   - Code Scanning은 GHAS license와 동등, Secret Scanning은 하위 기능
+     - Code Scanning은 GHAS license로 함께 enable/disable
+     - Secret ScanningOrg레벨/Repo레벨에서 Code Scanning과 별도로 enable/disable가능, Code Scanning을 disable하면 
    - 한명의 User는 여러곳에 commit해도 '하나'로 카운트
-   - 관리: [Enterprise레벨에서 Org별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise), [Org자체에서 enable/disable](https://docs.github.com/en/enterprise-server@3.1/organizations/keeping-your-organization-secure/managing-security-and-analysis-settings-for-your-organization#enabling-or-disabling-a-feature-for-all-existing-repositories), [저장소별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#enabling-or-disabling-security-and-analysis-features)
+   - 관리/비용절약 💰 
+      - [Enterprise레벨에서 Org별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise)
+      - [Org자체에서 모든 저장소 한꺼번에 enable/disable](https://docs.github.com/en/enterprise-server@3.1/organizations/keeping-your-organization-secure/managing-security-and-analysis-settings-for-your-organization#enabling-or-disabling-a-feature-for-all-existing-repositories)
+      - [저장소별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#enabling-or-disabling-security-and-analysis-features)
+      - 어떤 저장소를 GHAS를 
     - Committer가 초과 시: 기존에 enable된 저장소들은 계속 추가적인 committer 허용// 신규 저장소들은 GHAS가 disable된 상태로 생성됨, GHAS가 enable되지 않았던 기존 저장소들도 GHAS의 enable버튼이 비활성화
   
    
@@ -164,7 +171,7 @@
 * GitHub.com상에 모든 Public 저장소들은 이미 사용 가능 ✨
 
 * Private 저장소들에 대해 Trial을 하고 싶으시면 👇
-   - GitHub Sales에 Trial request ☎️ ▶️ Trial Enable
+   - GitHub Sales에 Trial request 📱 Trial Enable
    - 간단한 meeting : Trial 범위/대상 저장소/언어/빌드환경등,, Trial의 목적, success criteria등
    
 * GitHub Enterprise Cloud에서 Trial 
@@ -182,7 +189,7 @@
      - Trial 라이센스를 신청하신 admin분의 이메일로 전송 -> GHES설치하고 trial 라이센스 적용 
    
 * 기간: 3Weeks
- * 사용방법/매주 1~2회 call
+ * 사용방법 /매주 1~2회 call하면서 함께 진행
    
 </p>
 </details>
