@@ -119,7 +119,7 @@
 <details><summary>🔍</summary>
 <p>
    
-   * [Security Center](https://github.com/orgs/johnjohncom/security) - currently beta on GHEC
+   * Org Owner는 [Security Center](https://github.com/orgs/johnjohncom/security)에서 조직 레벨의 전체 상태를 확인할 수 있습니다 (currently beta on GHEC)
      - [Team level Security center](https://github.com/orgs/johnjohncom/teams/team1/security)
    
 </p>
