@@ -24,16 +24,27 @@
    
 * Devs와 Security팀이 어떻게 일하시나요? 🖥️
   * working relationship 🧑‍🤝‍🧑 : single team 처럼 함께 협력하시는지, 아니면 의사소통만 오가는 정도인지요?
+
   * 문제점 발견에서 복구까지의 시간은? (MTTR)
+  
   * 보안취약성을 해결하는데 얼마나 효율적으로 일하나요? ⏳
+  
   * Devs에서 느끼는 어려운 점들은? 
+  
   * 30일 이상 오픈되어 있는 취약성은 얼마나..?(%) 📆
+
 * 현재의 SAST / DAST/Secret Scanning 도구들은?🤔 
+  
   * 얼마나 오래 사용되어왔는지/어느 팀이 ownership
+  
   * Devs와의 워크플로우 결합은 developer integrations 또는 커밋 단계의 early integrations이 있는지요?
+  
   * 좋은점과, 개선이 필요한 부분들이 있다면 어떤 것들이 있을까요? 👀
+  
   * 도구를 개발/관리/유지하기 위한 현재의 노력은? 
+  
   * 만약 현재 도구가 없다면, 무엇이, 어떤 목적 🎛️ , Initiative?
+  
   * 현재 사용하시는 소스코드관리/협업 플랫폼은? 👀
 
 </p>
@@ -104,10 +115,15 @@
 <p>
    
    * [Secret Scanning](https://github.com/octodemo/demo-vulnerabilities-ghas/security/secret-scanning)
+ 
    * [현재 37개 패턴 coverage](https://docs.github.com/en/enterprise-server@3.1/code-security/secret-security/about-secret-scanning#about-secret-scanning-for-private-repositories)
+   
    * GitHub.com상에 Public 저장소들은 이전부터 default로 자동 ON되어 있어왔습니다. GitHub.com상의 Private 저장소는 Organization 소속의 저장소만 지원
+   
    * GHES는 Organization 소속의 저장소만 지원
+   
    * User Defiend 패턴까지 지원 예정
+   
    * Secret Scanning alert를 볼 수 있는 권한은 [Org의 Owner/저장소의 Admin이 추가/삭제 가능](https://docs.github.com/en/enterprise-server@3.1/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#granting-access-to-security-alerts)
    
    
@@ -129,6 +145,7 @@
 <p> 
    
    * [Org에 대해 Advanced Security 강제화](https://docs.github.com/en/enterprise-server@3.1/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise#enforcing-a-policy-for-advanced-security-features)
+   
    * [Policy.md 파일 설정](https://github.com/doosanbear/Demo-webgoatm/security/policy)
    
 
@@ -144,21 +161,31 @@
    - Dependabot Alert
    - Dependabot Security Update
    - Security Center
+
 * 별도 라이센스 : GHAS license
    - Code Scanning
    - Secret Scanning
+
 * GHAS license 라이센스 모델
    - **Commiter** 기반 : 지난 90일간 저장소에 Commit한 사람 수
+
    - Code Scanning은 GHAS license와 동등, Secret Scanning은 하위 기능
      - GHAS on/off : Code Scanning/Secret Scanning 모두 on/off
      - GHAS on상태에서, Secret Scanning은 Org레벨/Repo레벨에서 별도로 on/off가능하지만, GHAS를 off하면 함께 off
+   
    - 한명의 User는 여러곳에 commit해도 '하나'로 카운트
+   
    - 관리/비용절약 💰 
+    
       - [Enterprise레벨에서 Org별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise)
+      
       - [Org자체에서 모든 저장소 한꺼번에 enable/disable](https://docs.github.com/en/enterprise-server@3.1/organizations/keeping-your-organization-secure/managing-security-and-analysis-settings-for-your-organization#enabling-or-disabling-a-feature-for-all-existing-repositories)
+      
       - [저장소별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#enabling-or-disabling-security-and-analysis-features)
+      
       - 어떤 저장소에서 GHAS를 disable하면,해당 저장소에만 commit을 했던 committer의 수는 라이센스에서 즉시 빠짐 
-    - Committer가 초과 시: 기존에 enable된 저장소들은 계속 추가적인 committer 허용// 신규 저장소들은 GHAS가 disable된 상태로 생성됨, GHAS가 enable되지 않았던 기존 저장소들도 GHAS의 enable버튼이 비활성화
+   
+  - Committer가 초과 시: 기존에 enable된 저장소들은 계속 추가적인 committer 허용// 신규 저장소들은 GHAS가 disable된 상태로 생성됨, GHAS가 enable되지 않았던 기존 저장소들도 GHAS의 enable버튼이 비활성화
   
    
 </p>
