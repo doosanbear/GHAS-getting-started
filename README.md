@@ -93,7 +93,7 @@
    
    * [3rd 도구와 유연하게 연동하여](https://github.com/github/advanced-security-field/blob/main/technical-knowledge/code-scanning-integrations.md), [Upload SARIF](https://docs.github.com/en/code-security/secure-coding/integrating-with-code-scanning/uploading-a-sarif-file-to-github)를 통해 결과를 함께 확인할 수 있습니다.
    
-   * [CodeQL Visual Studio](https://codeql.github.com/docs/codeql-for-visual-studio-code/)
+   * [CodeQL Visual Studio](https://codeql.github.com/docs/codeql-for-visual-studio-code/) : [Analysis Example](https://gist.github.com/lcartey/323731b3de439b2fad7b499fee83b842)
    
    * [CodeQL CLI](https://codeql.github.com/docs/codeql-cli/)
    
