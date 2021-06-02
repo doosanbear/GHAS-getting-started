@@ -66,7 +66,7 @@
 
 * 보안 데이터베이스 
    * GitHub의 전체 보안 데이터 베이스 : [GitHub Advisory Database](https://github.com/advisories)
-   * GitHub은 CVE를 직접 발행할 수 있는 인증기관 (CNA: CVE Numbering Authority)
+   * GitHub은 [CVE를 직접 발행할 수 있는 인증기관](https://github.blog/2019-09-18-securing-software-together/#github-is-now-a-cve-numbering-authority) (CNA: CVE Numbering Authority)
    * [NVD(National Vulnerability Database), Community Sources](https://github.blog/2019-09-18-securing-software-together/)
 
    
