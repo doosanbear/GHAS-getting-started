@@ -160,7 +160,6 @@
    - Dependency Graph
    - Dependabot Alert
    - Dependabot Security Update
-   - Security Center
 
 * 별도 라이센스 : GHAS license
    - Code Scanning
