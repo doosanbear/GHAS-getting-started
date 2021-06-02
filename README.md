@@ -77,7 +77,7 @@
 <details><summary>🔍</summary>
 <p>
 
-   * GitHub + Semmle
+   * **GitHub + Semmle**
    ![GitHub Advanced Security - issc29](https://user-images.githubusercontent.com/40287191/120106398-bf619d00-c197-11eb-8324-01691841a262.png)
    ![GitHub Advanced Security - issc29 (1)](https://user-images.githubusercontent.com/40287191/120127834-6f1c2680-c1fb-11eb-8ee1-3ae7452d2045.png)
 
