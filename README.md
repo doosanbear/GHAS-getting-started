@@ -201,7 +201,7 @@
 * GitHub.com상에 모든 Public 저장소들은 이미 사용 가능 ✨
 
 * Private 저장소들에 대해 Trial을 하고 싶으시면 👇
-   - GitHub Sales에 Trial request 📱 Trial Enable
+   - GitHub Sales에 Trial request 📱 
    - 간단한 meeting : Trial 범위/대상 저장소/언어/빌드환경등,, Trial의 목적, success criteria등
    
 * GitHub Enterprise Cloud에서 Trial 
