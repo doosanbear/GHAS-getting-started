@@ -24,8 +24,6 @@
    
 * Devs와 Security팀이 어떻게 일하시나요? 🖥️
   * working relationship 🧑‍🤝‍🧑 : single team 처럼 함께 협력하시는지, 아니면 의사소통만 오가는 정도인지요?
-
-  * 문제점 발견에서 복구까지의 시간은? (MTTR)
   
   * 보안취약성을 해결하는데 얼마나 효율적으로 일하나요? ⏳
   
@@ -37,7 +35,7 @@
   
   * 얼마나 오래 사용되어왔는지/어느 팀이 ownership
   
-  * Devs와의 워크플로우 결합은 developer integrations 또는 커밋 단계의 early integrations이 있는지요?
+  * Devs와의 워크플로우 결합은 어떻게 되어 있으신지요, 커밋 단계의 early integrations?
   
   * 좋은점과, 개선이 필요한 부분들이 있다면 어떤 것들이 있을까요? 👀
   
