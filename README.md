@@ -85,8 +85,6 @@
 
    * [CodeQL : 정적 분석을 위한 내부 쿼리 엔진](slide/codeql.md)
    
-   * [CodeQL은 Microsoft, Google, Uber등에서 분석을 위해 사용됩니다.](slide/codeql_customer.md) 
-   
    * [분석예제 with Javascript](https://github.com/doosanbear/code-scanning-javascript-demo)
    
    * [Pull Request에서의 Code Scanning Alert](https://github.com/octodemo/demo-vulnerabilities-ghas/pull/21)
@@ -108,7 +106,9 @@
    
    * [CodeQL CLI](https://codeql.github.com/docs/codeql-cli/)
    
-</p>
+   * [CodeQL은 Microsoft, Google, Uber등에서 분석을 위해 사용됩니다.](slide/codeql_customer.md) 
+
+   </p>
 </details>
 
 ## How 3. Code 작성시 실수로 Push되는 Credential을 자동으로 검출합니다. 
