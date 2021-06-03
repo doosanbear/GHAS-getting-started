@@ -49,7 +49,7 @@
 </details>
 
 
-## [Why GitHub](whyGitHub.md)
+## GitHub은 소프트웨어 개발 주기 전반에 걸친 보안을 강화합니다. 
 
 ## How 1. 먼저 의존성 부터 확인 합니다. 
 <details><summary>🔍</summary>
@@ -149,6 +149,8 @@
 
 </p>
 </details>
+
+## [GitHub Advance Security를 적용하면](whyGitHub.md)
 
 ## License 🧮
 <details><summary>🔍</summary>
