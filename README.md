@@ -74,6 +74,8 @@
 </p>
 </details>
 
+<br>
+
 ## How 2. Code를 작성할 때 들어갈 수 있는 위협요소를 분석합니다. :
 <details><summary>🔍</summary>
 <p>
@@ -112,6 +114,8 @@
    </p>
 </details>
 
+<br>
+
 ## How 3. Code 작성시 실수로 Push되는 Credential을 자동으로 검출합니다. 
 <details><summary>🔍</summary>
 <p>
@@ -132,6 +136,8 @@
 </p>
 </details>
 
+<br>
+
 ## How 4. 전체적인 보안 상태를 확인할 수 있습니다. 
 <details><summary>🔍</summary>
 <p>
@@ -141,6 +147,8 @@
    
 </p>
 </details>
+
+<br>
 
 ## How 5. Policy를 설정 합니다. 
 <details><summary>🔍</summary>
@@ -154,7 +162,11 @@
 </p>
 </details>
 
+<br>
+
 ## [GitHub Advance Security를 적용하면](whyGitHub.md)
+
+<br>
 
 ## License 🧮
 <details><summary>🔍</summary>
@@ -194,6 +206,8 @@
 </p>
 </details>
 
+<br>
+
 ## Trial을 원하시면 🚀
 <details><summary>🔍</summary>
 <p>
@@ -224,6 +238,8 @@
 </p>
 </details>
 
+<br>
+
 ## 개발 환경 ❔
 <details><summary>🔍</summary>
 <p>
@@ -234,6 +250,8 @@
    
 </p>
 </details>
+
+<br>
 
 ## 자료
 - [CodeQL Document](https://codeql.github.com/docs/)
