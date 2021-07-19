@@ -1,14 +1,14 @@
 # Combating CodeQL No Results Found Checklist
 
 ## Discovery Checklist
-- `What does this project / application do?`
-  - Is it a Web Application or [something else](./codeql-debugging/codeql-no-results-found.md#question-what-does-this-project--application-do)?
-- `How big is the Application / Project?`
-  - [Smaller applications will inherently have less security issues](./codeql-debugging/codeql-no-results-found.md#question-how-big-is-the-application--project)
+- `프로젝트/어플리케이션의 성격?`
+  - Web Application 또는 [다른 목적](./codeql-debugging/codeql-no-results-found.md#question-what-does-this-project--application-do)?
+- `프로젝트/어플리케이션의 규모?`
+  - [작은 규모의 프로젝트/어플리케이션은 당연히 더 작은 이슈가 있습니다](./codeql-debugging/codeql-no-results-found.md#question-how-big-is-the-application--project)
 - `What languages are you trying to analysis?`
-  - [Third-Party Integration needed?](./code-scanning-integrations.md)
-- `What frameworks are you using?`
-  - Focus on Web, Networking, Databases, and Frontend frameworks
+  - [Third-Party 통합의 필요?](./code-scanning-integrations.md)
+- `어떤 프레임워크들이 사용되는지?`
+  - 웹, 네트워킹, 데이터베이스, 프론트엔드 관련 프레임 워크들 
   - [CodeQL Language and Framework support list](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/) 
 - Are they using a [Framework or Library that needs Extra Support](./codeql-technologies-support)?
 - `What Threat Model are you working under?`
@@ -147,8 +147,7 @@ To be able to review the source code that CodeQL has analysed, you'll need to fo
 
 #### Enabling External API query
 
-The External API Query was a cross-language query that allows for users and customers to find missing sinks in there applications.
-This can be because of a multitude of issues but primarily it could be the following:
+External API Query는 누락된 sink를 찾을 수 있도록 해주는 쿼리 입니다. Sink가 누락되는 것은 여러가지 이슈들이 있을 수 있지만, 대부분 아래의 이슈들로 인해 발생합니다. 
 
 - Framework / Libraries not supported by CodeQL
 - Heavy Inner Sourcing and using internal Libraries
