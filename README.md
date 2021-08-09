@@ -258,4 +258,4 @@
 - [CodeQL Document](https://codeql.github.com/docs/)
 - [CodeQL query help](https://codeql.github.com/codeql-query-help/)
 - [push a GitHub Actions workflow to multiple repositories](https://github.com/jhutchings1/Create-ActionsPRs)
-
+- [codeQL CWE coverage](https://codeql.github.com/codeql-query-help/codeql-cwe-coverage/#)
