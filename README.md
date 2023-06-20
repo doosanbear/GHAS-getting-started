@@ -61,7 +61,7 @@
 * 프로젝트가 의존하고 있는 의존성은 어떤것이 있지? 🤔 : [Dependency Graph](https://github.com/doosanbear/Demo-webgoatm/network/dependencies)  
   
 * 의존성에 알람이 뜨면 알람을 발생시킵니다. 🔊 : [Dependabot alert](https://github.com/doosanbear/Demo-webgoatm) 
-   - Dependabot alert를 볼 수 있는 권한은 [Org owner/저장소 admin이 추가/삭제](https://docs.github.com/en/enterprise-server@3.1/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#granting-access-to-security-alerts)
+   - Dependabot alert를 볼 수 있는 권한은 [Org owner/저장소 admin이 추가/삭제](https://docs.github.com/en/enterprise-server@latest/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#granting-access-to-security-alerts)
   
 * 발생된 의존성 알람에 대해 자동 패치를 수행합니다. : [Dependabot security update](https://github.com/doosanbear/Demo-webgoatm/pulls)
 
@@ -94,14 +94,14 @@
    * [더 많은 예제입니다.](https://github.com/doosanbear/Demo-webgoatm/security)
    
    * [Codeql 저장소](https://github.com/github/codeql), [Codeql-action 저장소](https://github.com/github/codeql-action)에 지속적으로 Query들이 업데이트 됩니다.
-      - [GitHub Connect 설정](https://docs.github.com/en/enterprise-server@3.1/admin/github-actions/managing-access-to-actions-from-githubcom/enabling-automatic-access-to-githubcom-actions-using-github-connect)을 이용해 자동으로 업데이트된 CodeQL 쿼리들 사용가능
+      - [GitHub Connect 설정](https://docs.github.com/en/enterprise-server@latest/admin/github-actions/managing-access-to-actions-from-githubcom/enabling-automatic-access-to-githubcom-actions-using-github-connect)을 이용해 자동으로 업데이트된 CodeQL 쿼리들 사용가능
    
    * [순수 온프렘에서도 사용가능합니다: Codeql-action-sync-tool](https://github.com/github/codeql-action-sync-tool/)을 이용해 인터넷 연결이 없는 상황에서도 수동으로 sync가능 
    
-   * 저장소의 읽기 권한이 있으면, Pull Request상에 Code Scanning 결과 볼 수 있고, 저장소에 '쓰기' 권한이 있으면 'Security' 탭에서 전체 결과 확인 가능 ([설명](https://docs.github.com/en/enterprise-server@3.1/code-security/secure-coding/automatically-scanning-your-code-for-vulnerabilities-and-errors/managing-code-scanning-alerts-for-your-repository#viewing-the-alerts-for-a-repository))
+   * 저장소의 읽기 권한이 있으면, Pull Request상에 Code Scanning 결과 볼 수 있고, 저장소에 '쓰기' 권한이 있으면 'Security' 탭에서 전체 결과 확인 가능 ([설명](https://docs.github.com/en/enterprise-server@latest/code-security/secure-coding/automatically-scanning-your-code-for-vulnerabilities-and-errors/managing-code-scanning-alerts-for-your-repository#viewing-the-alerts-for-a-repository))
    
    * [CodeQL 쿼리 스위트 설명](queries.md)
-     - [Help 설명](https://docs.github.com/en/enterprise-server@3.1/code-security/secure-coding/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#running-additional-queries)
+     - [Help 설명](https://docs.github.com/en/enterprise-server@latest/code-security/secure-coding/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#running-additional-queries)
      - [Extended CodeQL query 실행 yaml파일](https://github.com/son7211/demovul/blob/master/.github/workflows/codeql-analysis.yml)
    
    * [3rd 도구와 유연하게 연동하여](https://github.com/github/advanced-security-field/blob/main/technical-knowledge/code-scanning-integrations.md), [Upload SARIF](https://docs.github.com/en/code-security/secure-coding/integrating-with-code-scanning/uploading-a-sarif-file-to-github)를 통해 결과를 함께 확인할 수 있습니다.
@@ -123,7 +123,7 @@
    
    * [Secret Scanning](https://github.com/octodemo/demo-vulnerabilities-ghas/security/secret-scanning)
  
-   * [현재 37개 패턴 coverage](https://docs.github.com/en/enterprise-server@3.1/code-security/secret-security/about-secret-scanning#about-secret-scanning-for-private-repositories)
+   * [현재 200여개 패턴 coverage](https://docs.github.com/en/enterprise-server@latest/code-security/secret-security/about-secret-scanning#about-secret-scanning-for-private-repositories)
    
    * GitHub.com상에 Public 저장소들은 이전부터 default로 자동 ON되어 있어왔습니다. GitHub.com상의 Private 저장소는 Organization 소속의 저장소만 지원
    
@@ -131,7 +131,7 @@
    
    * User Defiend 패턴까지 지원 예정
    
-   * Secret Scanning alert를 볼 수 있는 권한은 [Org의 Owner/저장소의 Admin이 추가/삭제 가능](https://docs.github.com/en/enterprise-server@3.1/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#granting-access-to-security-alerts)
+   * Secret Scanning alert를 볼 수 있는 권한은 [Org의 Owner/저장소의 Admin이 추가/삭제 가능](https://docs.github.com/en/enterprise-server@latest/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#granting-access-to-security-alerts)
    
    
 </p>
@@ -155,7 +155,7 @@
 <details><summary>🔍</summary>
 <p> 
    
-   * [Org에 대해 Advanced Security 강제화](https://docs.github.com/en/enterprise-server@3.1/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise#enforcing-a-policy-for-advanced-security-features)
+   * [Org에 대해 Advanced Security 강제화](https://docs.github.com/en/enterprise-server@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise#enforcing-a-policy-for-advanced-security-features)
    
    * [Policy.md 파일 설정](https://github.com/doosanbear/Demo-webgoatm/security/policy)
    
@@ -193,11 +193,11 @@
    
    - 관리/비용절약 💰 
     
-      - [Enterprise레벨에서 Org별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise)
+      - [Enterprise레벨에서 Org별로 enable/disable](https://docs.github.com/en/enterprise-server@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-advanced-security-in-your-enterprise)
       
-      - [Org자체에서 모든 저장소 한꺼번에 enable/disable](https://docs.github.com/en/enterprise-server@3.1/organizations/keeping-your-organization-secure/managing-security-and-analysis-settings-for-your-organization#enabling-or-disabling-a-feature-for-all-existing-repositories)
+      - [Org자체에서 모든 저장소 한꺼번에 enable/disable](https://docs.github.com/en/enterprise-server@latest/organizations/keeping-your-organization-secure/managing-security-and-analysis-settings-for-your-organization#enabling-or-disabling-a-feature-for-all-existing-repositories)
       
-      - [저장소별로 enable/disable](https://docs.github.com/en/enterprise-server@3.1/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#enabling-or-disabling-security-and-analysis-features)
+      - [저장소별로 enable/disable](https://docs.github.com/en/enterprise-server@latest/github/administering-a-repository/managing-repository-settings/managing-security-and-analysis-settings-for-your-repository#enabling-or-disabling-security-and-analysis-features)
       
       - 어떤 저장소에서 GHAS를 disable하면,해당 저장소에만 commit을 했던 committer의 수는 라이센스에서 즉시 빠짐 
    
