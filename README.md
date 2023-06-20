@@ -123,7 +123,7 @@
    
    * [Secret Scanning](https://github.com/octodemo/demo-vulnerabilities-ghas/security/secret-scanning)
  
-   * [현재 200여개 패턴 coverage](https://docs.github.com/en/enterprise-server@latest/code-security/secret-security/about-secret-scanning#about-secret-scanning-for-private-repositories)
+   * [현재 200여개 패턴 coverage](https://docs.github.com/en/enterprise-server@latest/code-security/secret-scanning/secret-scanning-patterns)
    
    * GitHub.com상에 Public 저장소들은 이전부터 default로 자동 ON되어 있어왔습니다. GitHub.com상의 Private 저장소는 Organization 소속의 저장소만 지원
    
